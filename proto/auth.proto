@@ -42,7 +42,7 @@ message UserRequest {
 message UserResponse {
   int32 status = 1;
   repeated string error = 2;
-  string token = 3;
+  string data = 3;
 }
 
 // Validate
